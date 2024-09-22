@@ -20,23 +20,28 @@ Final Project Part 1.
 This phase of the project will implement the following Admin functions:
 
 Add Semester
+
 A semester is added to the database. The semester is identified by one name.
 
 Add Course
+
 A new course is added to the database. The course is identified by the code for the
 course, and the description of the course.
 
 Add Class
+
 A new class is added to the database. The class is identified by the semester the course
 is offered, the code for the course, and the maximum number of students the course
 will contain that semester.
 
 Add Student
+
 A student is added to the database. The student is identified by a studentID, the
 student’s first name, and the student’s last name.
 This phase of the project will implement the following Student functions:
 
 Schedule Class
+
 The student will be scheduled in the class for the specified semester if there are
 seats available. If there are no seats available, the student will be put in a wait status
 for that Class. The waiting status must be maintained in the order the students tried to
@@ -44,23 +49,28 @@ schedule the class. It will display whether the student gets scheduled for the c
 waitlisted.
 
 Display Schedule
+
 The Display Schedule function will display the current schedule of classes for a
 specified student for the current semester. It will display the course code and the status
 of the student in the class, whether scheduled or waitlisted.
 
 Display Classes
+
 The Display Classes function will display a complete list of classes for the current
 semester showing the course code, description, and number of seats.
 
 Testing scenario:
+
 A testing scenario will be provided to assist you in testing this application. It will be
 called Final Project Part 1 Test Script on Canvas.
 
 Database considerations:
+
 Your database will be created but all the tables should be empty when your project is
 submitted.
 
 Initial NetBeans Project:
+
 An initial project is provided for you to be used as the basis of your final project. It is
 provided as a .zip file in Week 11 in Canvas under the name
 CourseSchedulerNameID.zip. It MUST be used for your Final Project. You will change
@@ -68,6 +78,7 @@ the project name after you download it. There is a video in Week 11 about how to
 this.
 
 GUI Guidelines:
+
 The user should be required to enter only unknown data. Drop down lists of known
 data such as Student names, Course Codes, or Semesters should be displayed for the
 user to select. Combo Boxes should be used for the drop-down lists on the form. When
