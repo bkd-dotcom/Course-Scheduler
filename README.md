@@ -11,6 +11,7 @@ Design and Programming. There is a very close correlation between Object-Oriente
 Design and Database Design. Your application design should include at least four
 classes besides the main GUI class. Your database access should be in the classes that
 correlate with the database tables.
+
 This assignment is the first half of the final project and will be submitted as
 Final Project Part 1.
 This phase of the project will implement the following Admin functions:
